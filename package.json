@@ -4,10 +4,10 @@
   "description": "",
   "main": "public/main.js",
   "scripts": {
-    "build": "webpack --env mode=production",
-    "start": "webpack serve --env mode=development --host 0.0.0.0",
     "lint": "eslint . --ext .ts",
-    "lint-and-fix": "eslint . --ext .ts --fix"
+    "lint-and-fix": "eslint . --ext .ts --fix",
+    "build": "eslint . --ext .ts && webpack --env mode=production",
+    "start": "eslint . --ext .ts && webpack serve --env mode=development --host 0.0.0.0"
   },
   "author": "",
   "license": "ISC",
