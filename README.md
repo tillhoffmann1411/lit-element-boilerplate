@@ -1,5 +1,5 @@
 # Lit-Element Boilerplate
-This is a boilerplate to quickly start frontend projects.
+This is a boilerplate to quickly start frontend projects. This repo ist based on this [Guide](https://www.notion.so/Setup-typescript-Project-320ae0a82fdb4d4298e9f549bc8f23f0).
 It contains:
 
 - [x] [TypeScript](https://www.typescriptlang.org/)
